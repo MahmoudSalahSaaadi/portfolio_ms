@@ -1,0 +1,112 @@
+{
+  "app": {
+    "title": "Mahmoud Salah - Full Stack Developer",
+    "description": "Personal portfolio of Mahmoud Salah, a Full Stack Developer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Mahmoud",
+    "lastName": "Salah",
+    "subtitle": "Full Stack Developer",
+    "description": "I build exceptional digital experiences with modern web technologies. Focused on creating clean, efficient, and user-friendly applications.",
+    "cta1": "Get In Touch",
+    "cta2": "Download CV",
+    "techStack": "Tech Stack",
+    "available": "Available for work"
+  },
+  "about": {
+    "title": "About Me",
+    "whoAmI": "Who am I?",
+    "description1": "I'm a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. I love turning ideas into reality through clean, efficient, and scalable code.",
+    "description2": "With experience in modern JavaScript frameworks and a keen eye for design, I create applications that are not only functional but also provide an exceptional user experience.",
+    "contactMe": "Contact Me",
+    "mySkills": "My Skills",
+    "details": {
+      "name": "Name",
+      "email": "Email",
+      "experience": "Experience",
+      "location": "Location"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "items": [
+      {
+        "title": "E-commerce Platform",
+        "description": "A full-featured e-commerce platform with product management, cart, and payment integration.",
+        "tags": ["Vue.js", "Node.js", "MongoDB", "Stripe"],
+        "live": "Live Demo",
+        "code": "View Code"
+      },
+      {
+        "title": "Task Management App",
+        "description": "A collaborative task management application with real-time updates and team features.",
+        "tags": ["React", "Firebase", "Redux", "Material UI"],
+        "live": "Live Demo",
+        "code": "View Code"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website built with Nuxt.js and Tailwind CSS.",
+        "tags": ["Nuxt.js", "Tailwind CSS", "Vue 3"],
+        "live": "Live Demo",
+        "code": "View Code"
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "A weather application that displays current and forecasted weather data.",
+        "tags": ["Vue.js", "OpenWeather API", "Chart.js"],
+        "live": "Live Demo",
+        "code": "View Code"
+      },
+      {
+        "title": "Recipe Finder",
+        "description": "Find recipes based on ingredients you have at home.",
+        "tags": ["React", "Spoonacular API", "Context API"],
+        "live": "Live Demo",
+        "code": "View Code"
+      },
+      {
+        "title": "Blog Platform",
+        "description": "A full-stack blog platform with user authentication and rich text editing.",
+        "tags": ["Next.js", "Node.js", "MongoDB", "JWT"],
+        "live": "Live Demo",
+        "code": "View Code"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind or want to discuss potential opportunities? Feel free to reach out and let's create something amazing together!",
+    "infoTitle": "Contact Information",
+    "infoDescription": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": {
+        "title": "Message Sent",
+        "message": "Thank you for reaching out! I will get back to you soon."
+      }
+    },
+    "follow": "Follow Me"
+  },
+  "footer": {
+    "copyright": "© {year} Mahmoud Salah. All rights reserved."
+  },
+  "common": {
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "loading": "Loading..."
+  }
+}
