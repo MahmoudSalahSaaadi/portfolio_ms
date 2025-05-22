@@ -20,7 +20,7 @@
               <span>Get In Touch</span>
               <i class="pi pi-arrow-right ml-2"></i>
             </NuxtLink>
-            <a href="#"
+            <a @click.prevent="downloadCV" href="/MahmoudSalahSaadi-Frontend.pdf" download type="application/pdf"
               class="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center">
               <span>Download CV</span>
               <i class="pi pi-download ml-2"></i>
@@ -369,7 +369,14 @@ const form = ref({
   subject: '',
   message: ''
 });
-
+const downloadCV = () => {
+  const link = document.createElement('a')
+  link.href = '/MahmoudSalah_Frontend_CV.pdf' // المسار الصحيح
+  link.download = 'MahmoudSalah_CV.pdf' // اسم الملف عند التحميل
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
 const isSending = ref(false);
 
 const sendMessage = () => {
